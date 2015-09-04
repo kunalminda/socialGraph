@@ -1,0 +1,106 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "state",
+            "children": [
+                {
+                    "name": "Karnataka",
+                    "children": [
+                        {
+                            "name": "Kapil Minda",
+                            "children": [
+                                {
+                                    "name": "Kapil Minda",
+                                    "size": 2345
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kapil Minda",
+                            "children": [
+                                {
+                                    "name": "Kapil Minda",
+                                    "size": 2345
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kapil Minda",
+                            "children": [
+                                {
+                                    "name": "Kapil Minda",
+                                    "size": 2345
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Delhi",
+                    "children": [
+                        {
+                            "name": "Atul Sharma",
+                            "children": [
+                                {
+                                    "name": "Atul Sharma",
+                                    "size": 2345
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Atul Sharma",
+                            "children": [
+                                {
+                                    "name": "Atul Sharma",
+                                    "size": 2345
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Atul Sharma",
+                            "children": [
+                                {
+                                    "name": "Atul Sharma",
+                                    "size": 2345
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "college",
+            "children": [
+                {
+                    "name": "Kapil Minda",
+                    "children": [
+                        {
+                            "name": "Kapil Minda",
+                            "size": 2345
+                        }
+                    ]
+                },
+                {
+                    "name": "Vikas Gupta",
+                    "children": [
+                        {
+                            "name": "Vikas Gupta",
+                            "size": 2345
+                        }
+                    ]
+                },
+                {
+                    "name": "Saloni Jain",
+                    "children": [
+                        {
+                            "name": "Saloni Jain",
+                            "size": 2345
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

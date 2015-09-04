@@ -296,8 +296,14 @@ footer .nav>li>a:hover {
 
 .details-section{
 	  background-color: #fff;
+	  padding-bottom:0px !important;
+	  margin-bottom:-20px !important; 
 }
 
 .details-section h4{
 	  color: #000;
+}
+
+#btnMakeContact{
+	height:40px;
 }
