@@ -34,8 +34,13 @@ $('a[href*=#]:not([href=#])').click(function() {
 });
 
 $(document).ready(function(){
-	$(".fa.fa-facebook").on("click",function(){
-		
+	
+	$("#btnContactUs").on("click",function(){
+		alert("contact");
+	});
+	
+	$(".scroll-down").on("click",function(){
+		alert("search");
 	});
 });
 

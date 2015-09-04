@@ -107,8 +107,9 @@
     	    		  .append("g")
     	    		    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-    	    		d3.json("data/fb1.json", function(error, root) {
-    	    		  if (error) throw error;
+    	    		//d3.json(JSON.stringify(result), function(error, root) {
+    	    		 var root = JSON.parse(result);
+    	    		//if (error) throw error;
 
     	    		  var focus = root,
     	    		      nodes = pack.nodes(root),
@@ -170,7 +171,7 @@
     	    			     
     	    		  }
     	    		  
-    	    		});
+    	    		//});
 
     	    		d3.select(self.frameElement).style("height", diameter + "px");
     	    		}
