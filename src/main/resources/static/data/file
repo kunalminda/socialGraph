@@ -1,0 +1,3062 @@
+{
+    "results": [
+        {
+            "columns": [
+                "r"
+            ],
+            "data": [
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Emil"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "8",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Emil Eifrem",
+                                    "born": 1978
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "7",
+                                "type": "ACTED_IN",
+                                "startNode": "8",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Emil"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Agent Smith"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "4",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Hugo Weaving",
+                                    "born": 1960
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "3",
+                                "type": "ACTED_IN",
+                                "startNode": "4",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Agent Smith"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Morpheus"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Laurence Fishburne",
+                                    "born": 1961
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "2",
+                                "type": "ACTED_IN",
+                                "startNode": "3",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Morpheus"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Trinity"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Carrie-Anne Moss",
+                                    "born": 1967
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "1",
+                                "type": "ACTED_IN",
+                                "startNode": "2",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Trinity"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Neo"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "0",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Neo"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "6",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Lana Wachowski",
+                                    "born": 1965
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "5",
+                                "type": "DIRECTED",
+                                "startNode": "6",
+                                "endNode": "0",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "5",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Andy Wachowski",
+                                    "born": 1967
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "4",
+                                "type": "DIRECTED",
+                                "startNode": "5",
+                                "endNode": "0",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "7",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Joel Silver",
+                                    "born": 1952
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "6",
+                                "type": "PRODUCED",
+                                "startNode": "7",
+                                "endNode": "0",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Kevin Lomax"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            },
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "22",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "11",
+                                "properties": {
+                                    "roles": [
+                                        "Kevin Lomax"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Neo"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "15",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Neo"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Neo"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "8",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Neo"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Neo"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "0",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Neo"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Trinity"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "2",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Carrie-Anne Moss",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "16",
+                                "type": "ACTED_IN",
+                                "startNode": "2",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Trinity"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Trinity"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "2",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Carrie-Anne Moss",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "9",
+                                "type": "ACTED_IN",
+                                "startNode": "2",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Trinity"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Trinity"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Carrie-Anne Moss",
+                                    "born": 1967
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "1",
+                                "type": "ACTED_IN",
+                                "startNode": "2",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Trinity"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Morpheus"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "3",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Laurence Fishburne",
+                                    "born": 1961
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "17",
+                                "type": "ACTED_IN",
+                                "startNode": "3",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Morpheus"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Morpheus"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "3",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Laurence Fishburne",
+                                    "born": 1961
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "10",
+                                "type": "ACTED_IN",
+                                "startNode": "3",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Morpheus"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Morpheus"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Laurence Fishburne",
+                                    "born": 1961
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "2",
+                                "type": "ACTED_IN",
+                                "startNode": "3",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Morpheus"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Agent Smith"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "4",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Hugo Weaving",
+                                    "born": 1960
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "18",
+                                "type": "ACTED_IN",
+                                "startNode": "4",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Agent Smith"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Agent Smith"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "4",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Hugo Weaving",
+                                    "born": 1960
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "11",
+                                "type": "ACTED_IN",
+                                "startNode": "4",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Agent Smith"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Agent Smith"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "4",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Hugo Weaving",
+                                    "born": 1960
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "3",
+                                "type": "ACTED_IN",
+                                "startNode": "4",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Agent Smith"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "5",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Andy Wachowski",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "19",
+                                "type": "DIRECTED",
+                                "startNode": "5",
+                                "endNode": "10",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "5",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Andy Wachowski",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "12",
+                                "type": "DIRECTED",
+                                "startNode": "5",
+                                "endNode": "9",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "5",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Andy Wachowski",
+                                    "born": 1967
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "4",
+                                "type": "DIRECTED",
+                                "startNode": "5",
+                                "endNode": "0",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "6",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Lana Wachowski",
+                                    "born": 1965
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "20",
+                                "type": "DIRECTED",
+                                "startNode": "6",
+                                "endNode": "10",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "6",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Lana Wachowski",
+                                    "born": 1965
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "13",
+                                "type": "DIRECTED",
+                                "startNode": "6",
+                                "endNode": "9",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "6",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Lana Wachowski",
+                                    "born": 1965
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "5",
+                                "type": "DIRECTED",
+                                "startNode": "6",
+                                "endNode": "0",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "7",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Joel Silver",
+                                    "born": 1952
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "21",
+                                "type": "PRODUCED",
+                                "startNode": "7",
+                                "endNode": "10",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "7",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Joel Silver",
+                                    "born": 1952
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "14",
+                                "type": "PRODUCED",
+                                "startNode": "7",
+                                "endNode": "9",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "7",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Joel Silver",
+                                    "born": 1952
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "6",
+                                "type": "PRODUCED",
+                                "startNode": "7",
+                                "endNode": "0",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Emil"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "0",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix",
+                                    "released": 1999,
+                                    "tagline": "Welcome to the Real World"
+                                }
+                            },
+                            {
+                                "id": "8",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Emil Eifrem",
+                                    "born": 1978
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "7",
+                                "type": "ACTED_IN",
+                                "startNode": "8",
+                                "endNode": "0",
+                                "properties": {
+                                    "roles": [
+                                        "Emil"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Agent Smith"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "4",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Hugo Weaving",
+                                    "born": 1960
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "11",
+                                "type": "ACTED_IN",
+                                "startNode": "4",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Agent Smith"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Morpheus"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "3",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Laurence Fishburne",
+                                    "born": 1961
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "10",
+                                "type": "ACTED_IN",
+                                "startNode": "3",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Morpheus"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Trinity"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "2",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Carrie-Anne Moss",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "9",
+                                "type": "ACTED_IN",
+                                "startNode": "2",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Trinity"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Neo"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "8",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "9",
+                                "properties": {
+                                    "roles": [
+                                        "Neo"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "6",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Lana Wachowski",
+                                    "born": 1965
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "13",
+                                "type": "DIRECTED",
+                                "startNode": "6",
+                                "endNode": "9",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "5",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Andy Wachowski",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "12",
+                                "type": "DIRECTED",
+                                "startNode": "5",
+                                "endNode": "9",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "7",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Joel Silver",
+                                    "born": 1952
+                                }
+                            },
+                            {
+                                "id": "9",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Reloaded",
+                                    "released": 2003,
+                                    "tagline": "Free your mind"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "14",
+                                "type": "PRODUCED",
+                                "startNode": "7",
+                                "endNode": "9",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Agent Smith"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "4",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Hugo Weaving",
+                                    "born": 1960
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "18",
+                                "type": "ACTED_IN",
+                                "startNode": "4",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Agent Smith"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Trinity"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "2",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Carrie-Anne Moss",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "16",
+                                "type": "ACTED_IN",
+                                "startNode": "2",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Trinity"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Morpheus"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "3",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Laurence Fishburne",
+                                    "born": 1961
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "17",
+                                "type": "ACTED_IN",
+                                "startNode": "3",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Morpheus"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Neo"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "15",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "10",
+                                "properties": {
+                                    "roles": [
+                                        "Neo"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "6",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Lana Wachowski",
+                                    "born": 1965
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "20",
+                                "type": "DIRECTED",
+                                "startNode": "6",
+                                "endNode": "10",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "5",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Andy Wachowski",
+                                    "born": 1967
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "19",
+                                "type": "DIRECTED",
+                                "startNode": "5",
+                                "endNode": "10",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "7",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Joel Silver",
+                                    "born": 1952
+                                }
+                            },
+                            {
+                                "id": "10",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Matrix Revolutions",
+                                    "released": 2003,
+                                    "tagline": "Everything that has a beginning has an end"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "21",
+                                "type": "PRODUCED",
+                                "startNode": "7",
+                                "endNode": "10",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "John Milton"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            },
+                            {
+                                "id": "14",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Al Pacino",
+                                    "born": 1940
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "24",
+                                "type": "ACTED_IN",
+                                "startNode": "14",
+                                "endNode": "11",
+                                "properties": {
+                                    "roles": [
+                                        "John Milton"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Kevin Lomax"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "1",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Keanu Reeves",
+                                    "born": 1964
+                                }
+                            },
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "22",
+                                "type": "ACTED_IN",
+                                "startNode": "1",
+                                "endNode": "11",
+                                "properties": {
+                                    "roles": [
+                                        "Kevin Lomax"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Mary Ann Lomax"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            },
+                            {
+                                "id": "12",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Charlize Theron",
+                                    "born": 1975
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "23",
+                                "type": "ACTED_IN",
+                                "startNode": "12",
+                                "endNode": "11",
+                                "properties": {
+                                    "roles": [
+                                        "Mary Ann Lomax"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            },
+                            {
+                                "id": "15",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Taylor Hackford",
+                                    "born": 1944
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "25",
+                                "type": "DIRECTED",
+                                "startNode": "15",
+                                "endNode": "11",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Mary Ann Lomax"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            },
+                            {
+                                "id": "12",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Charlize Theron",
+                                    "born": 1975
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "23",
+                                "type": "ACTED_IN",
+                                "startNode": "12",
+                                "endNode": "11",
+                                "properties": {
+                                    "roles": [
+                                        "Mary Ann Lomax"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "John Milton"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            },
+                            {
+                                "id": "14",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Al Pacino",
+                                    "born": 1940
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "24",
+                                "type": "ACTED_IN",
+                                "startNode": "14",
+                                "endNode": "11",
+                                "properties": {
+                                    "roles": [
+                                        "John Milton"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {}
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "11",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "The Devil's Advocate",
+                                    "released": 1997,
+                                    "tagline": "Evil has its winning ways"
+                                }
+                            },
+                            {
+                                "id": "15",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Taylor Hackford",
+                                    "born": 1944
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "25",
+                                "type": "DIRECTED",
+                                "startNode": "15",
+                                "endNode": "11",
+                                "properties": {}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Sam Weinberg"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "24",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Kevin Pollak",
+                                    "born": 1957
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "33",
+                                "type": "ACTED_IN",
+                                "startNode": "24",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Sam Weinberg"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Cpl. Carl Hammaker"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "23",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Cuba Gooding Jr.",
+                                    "born": 1968
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "32",
+                                "type": "ACTED_IN",
+                                "startNode": "23",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Cpl. Carl Hammaker"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Jonathan Kendrick"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "21",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Kiefer Sutherland",
+                                    "born": 1966
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "30",
+                                "type": "ACTED_IN",
+                                "startNode": "21",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Jonathan Kendrick"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Cpl. Jeffrey Barnes"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "22",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Noah Wyle",
+                                    "born": 1971
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "31",
+                                "type": "ACTED_IN",
+                                "startNode": "22",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Cpl. Jeffrey Barnes"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Cdr. JoAnne Galloway"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "19",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Demi Moore",
+                                    "born": 1962
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "28",
+                                "type": "ACTED_IN",
+                                "startNode": "19",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Cdr. JoAnne Galloway"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Capt. Jack Ross"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "20",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Kevin Bacon",
+                                    "born": 1958
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "29",
+                                "type": "ACTED_IN",
+                                "startNode": "20",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Capt. Jack Ross"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Daniel Kaffee"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "17",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Tom Cruise",
+                                    "born": 1962
+                                }
+                            },
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "26",
+                                "type": "ACTED_IN",
+                                "startNode": "17",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Daniel Kaffee"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Col. Nathan R. Jessup"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "18",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Jack Nicholson",
+                                    "born": 1937
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "27",
+                                "type": "ACTED_IN",
+                                "startNode": "18",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Col. Nathan R. Jessup"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Daniel Kaffee"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "17",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Tom Cruise",
+                                    "born": 1962
+                                }
+                            },
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "26",
+                                "type": "ACTED_IN",
+                                "startNode": "17",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Daniel Kaffee"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Col. Nathan R. Jessup"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "18",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Jack Nicholson",
+                                    "born": 1937
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "27",
+                                "type": "ACTED_IN",
+                                "startNode": "18",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Col. Nathan R. Jessup"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Cdr. JoAnne Galloway"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "19",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Demi Moore",
+                                    "born": 1962
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "28",
+                                "type": "ACTED_IN",
+                                "startNode": "19",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Cdr. JoAnne Galloway"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Capt. Jack Ross"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "20",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Kevin Bacon",
+                                    "born": 1958
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "29",
+                                "type": "ACTED_IN",
+                                "startNode": "20",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Capt. Jack Ross"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Jonathan Kendrick"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "21",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Kiefer Sutherland",
+                                    "born": 1966
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "30",
+                                "type": "ACTED_IN",
+                                "startNode": "21",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Jonathan Kendrick"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Cpl. Jeffrey Barnes"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "22",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Noah Wyle",
+                                    "born": 1971
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "31",
+                                "type": "ACTED_IN",
+                                "startNode": "22",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Cpl. Jeffrey Barnes"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Cpl. Carl Hammaker"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "23",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Cuba Gooding Jr.",
+                                    "born": 1968
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "32",
+                                "type": "ACTED_IN",
+                                "startNode": "23",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Cpl. Carl Hammaker"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "row": [
+                        {
+                            "roles": [
+                                "Lt. Sam Weinberg"
+                            ]
+                        }
+                    ],
+                    "graph": {
+                        "nodes": [
+                            {
+                                "id": "16",
+                                "labels": [
+                                    "Movie"
+                                ],
+                                "properties": {
+                                    "title": "A Few Good Men",
+                                    "released": 1992,
+                                    "tagline": "In the heart of the nation's capital, in a courthouse of the U.S. government, one man will stop at nothing to keep his honor, and one will stop at nothing to find the truth."
+                                }
+                            },
+                            {
+                                "id": "24",
+                                "labels": [
+                                    "Person"
+                                ],
+                                "properties": {
+                                    "name": "Kevin Pollak",
+                                    "born": 1957
+                                }
+                            }
+                        ],
+                        "relationships": [
+                            {
+                                "id": "33",
+                                "type": "ACTED_IN",
+                                "startNode": "24",
+                                "endNode": "16",
+                                "properties": {
+                                    "roles": [
+                                        "Lt. Sam Weinberg"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "stats": {
+                "contains_updates": false,
+                "nodes_created": 0,
+                "nodes_deleted": 0,
+                "properties_set": 0,
+                "relationships_created": 0,
+                "relationship_deleted": 0,
+                "labels_added": 0,
+                "labels_removed": 0,
+                "indexes_added": 0,
+                "indexes_removed": 0,
+                "constraints_added": 0,
+                "constraints_removed": 0
+            }
+        }
+    ],
+    "errors": []
+}

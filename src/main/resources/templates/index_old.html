@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>Dashboard with Off-canvas Sidebar</title>
+      <meta name="generator" content="Bootply" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+       <link rel="stylesheet" href="http://cdn.graphalchemist.com/alchemy.min.css"/>
+      <link href="css/styles.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">Seller Connect</a>
+            </div>
+            <div class="navbar-collapse collapse">
+               <!--  <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">Settings</a></li>
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">Help</a></li>
+                  </ul> -->
+               <form class="navbar-form navbar-right">
+                  <input type="text" class="form-control searchBar" autofocus id="autocomplete-ajax" placeholder="Search...">
+               </form>
+            </div>
+         </div>
+      </nav>
+
+      <div class="container-fluid">
+         <div class="row row-offcanvas row-offcanvas-left">
+            <div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+               <ul class="nav nav-sidebar padding15">
+                  <li>
+                     <a href="">Relationship</a> 
+                  </li>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Option 1</label>
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Option 2</label>
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="" disabled>Option 3</label>
+                  </div>
+               </ul>
+               <ul class="nav nav-sidebar padding15">
+                  <li>
+                     <a href="">Location</a> 
+                  </li>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Option 1</label>
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Option 2</label>
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="" disabled>Option 3</label>
+                  </div>
+               </ul>
+               <ul class="nav nav-sidebar padding15">
+                  <li>
+                     <a href="">Category</a> 
+                  </li>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Option 1</label>
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="">Option 2</label>
+                  </div>
+                  <div class="checkbox">
+                     <label><input type="checkbox" value="" disabled>Option 3</label>
+                  </div>
+               </ul>
+            </div>
+            <!--/span-->
+            <div class="col-sm-9 col-md-10 main">
+               <!--toggle sidebar button-->
+               <p class="visible-xs">
+                  <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
+               </p>
+               <h1 class="page-header seller-dashboard">
+                  <!-- Seller Dashboard -->
+                  <!--  <p class="lead">(<a href="http://www.bootply.com/128936">with off-canvas sidebar</a>)</p> -->
+               </h1>
+               <!--   <div class="row placeholders">
+                  <div class="col-xs-6 col-sm-3 placeholder text-center">
+                    <img src="//placehold.it/200/6666ff/fff" class="center-block img-responsive img-circle" alt="Generic placeholder thumbnail">
+                    <h4>Label</h4>
+                    <span class="text-muted">Something else</span>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder text-center">
+                    <img src="//placehold.it/200/66ff66/fff" class="center-block img-responsive img-circle" alt="Generic placeholder thumbnail">
+                    <h4>Label</h4>
+                    <span class="text-muted">Something else</span>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder text-center">
+                    <img src="//placehold.it/200/6666ff/fff" class="center-block img-responsive img-circle" alt="Generic placeholder thumbnail">
+                    <h4>Label</h4>
+                    <span class="text-muted">Something else</span>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder text-center">
+                    <img src="//placehold.it/200/66ff66/fff" class="center-block img-responsive img-circle" alt="Generic placeholder thumbnail">
+                    <h4>Label</h4>
+                    <span class="text-muted">Something else</span>
+                  </div>
+                  </div> -->
+               <hr>
+               <h2 class="sub-header">Section title</h2>
+               <div class="table-responsive" id="my-container"></div>
+               <!--/row-->
+               <script id="student-template" type="text/x-handlebars-template">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Mark</th>
+                        <th>Subject</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    {{#each students}}
+                      <tr>
+                        <td>{{this.name}}</td>
+                        <td>{{this.mark}}</td>
+                        <td>{{this.subject}}</td>
+                      </tr>
+                    {{/each}}
+                    </tbody>
+                  </table>
+               </script>
+            </div>
+            <!--/.container-->
+            </div> <!-- end of col-sm-9 -->
+              <div class="col-md-12">
+         <h1>Image Feeds</h1>
+
+        <div class="well">
+            <div id="myCarousel" class="carousel slide">
+                
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"><div>#text</div></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                </div>
+                <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+            </div>
+            <!--/myCarousel-->
+        </div>
+        <!--/well-->
+    </div>
+         
+      </div>
+     </div>
+
+  
+
+     <div class="ajax-loader hide">
+      <img src="http://www.piloti.com.br/img/ajax-loader-2.gif" />
+     </div>
+
+     <div class="alchemy" id="alchemy"></div>
+
+      <footer>
+        <!--  <p class="pull-right">©2014 Company</p> -->
+      </footer>
+      <!-- script references -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+       <script src="http://cdn.graphalchemist.com/alchemy.min.js"></script>
+      <script src="js/handlebars-v4.0.0.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.autocomplete.js"></script>    
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
