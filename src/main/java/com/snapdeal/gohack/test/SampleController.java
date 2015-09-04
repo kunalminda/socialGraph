@@ -31,8 +31,6 @@ public class SampleController {
 	
 	//private static final String SERVER_ROOT_URI = "http://localhost:7474/db/data/";
 	
-	private HashMap<String, List<String>> stateMap = new HashMap<String, List<String>>();
-	
 	private static final String SERVER_ROOT_URI = "http://10.10.101.176:7474/db/data/";
     
 	@RequestMapping(value="/submitQuery", method=RequestMethod.POST,headers = 
@@ -69,6 +67,9 @@ public class SampleController {
 	}
 	
 	private Output myResponse(String bb) throws JSONException{
+		
+		HashMap<String, List<String>> stateMap = new HashMap<String, List<String>>();
+		
 		JSONObject obj = new JSONObject(bb);
 		JSONArray myArray = obj.getJSONArray("results");
 		JSONArray dataArray = myArray.getJSONObject(0).getJSONArray("data");
