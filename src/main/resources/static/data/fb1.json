@@ -9,7 +9,12 @@
                     "children": [
                         {
                             "name": "seller1",
-                            "size": 3938
+                            "children": [
+                                {
+                                    "name": "seller1",
+                                    "size": 2345
+                                }
+                            ]
                         },
                         {
                             "name": "seller2",

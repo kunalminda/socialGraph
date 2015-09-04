@@ -121,7 +121,8 @@
     	    		      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
     	    		      .attr("data-node",function(d){return d.name;})
     	    		      .on("click", function(d) {
-    	    		    	  if (focus !== d) zoom(d), d3.event.stopPropagation(); 
+    	    		    	  if(d.value == 2345){goToDetails(d);}
+    	    		    	  if (focus !== d)  zoom(d), d3.event.stopPropagation(); 
     	    		    });
 
     	    		  var text = svg.selectAll("text")
@@ -162,6 +163,13 @@
     	    		    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
     	    		    circle.attr("r", function(d) { return d.r * k; });
     	    		  }
+    	    		  
+    	    		  function goToDetails(d){
+    	    			
+    	    				  alert(d.name);
+    	    			     
+    	    		  }
+    	    		  
     	    		});
 
     	    		d3.select(self.frameElement).style("height", diameter + "px");

@@ -293,3 +293,11 @@ footer .nav>li>a:hover {
 .container-fluid.v-center{
 	margin-top:12%;
 }
+
+.details-section{
+	  background-color: #fff;
+}
+
+.details-section h4{
+	  color: #000;
+}
