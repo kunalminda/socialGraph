@@ -57,10 +57,12 @@ public class SampleController {
 		if(query.getSubCat() != null){
 			//execute product call
 			String bb = "MATCH (sellers:SELLER)-[:SELLS_SUB_CAT]->(prod:SUB_CATEGORY{name:'"+query.getSubCat()+"'}) return distinct sellers.name,sellers.state,sellers.fbId;";
+			bb = sendTransactionalCypherQuery(bb);
 			return new ResponseEntity<Output>(myResponse(bb), HttpStatus.OK);
 		}
 		if(query.getCat() != null){
 			String bb = "MATCH (sellers:SELLER)-[:SELLS_CAT]->(prod:CATEGORY{name:'"+query.getCat()+"'}) return distinct sellers.name,sellers.state,sellers.fbId;";
+			bb = sendTransactionalCypherQuery(bb);
 			return new ResponseEntity<Output>(myResponse(bb), HttpStatus.OK);
 		}
 		return null;
