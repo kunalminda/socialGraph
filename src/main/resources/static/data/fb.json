@@ -1,0 +1,39 @@
+{
+    "name": "seller1",
+    "children": [
+        {
+            "name": "State",
+            "children": [
+                {
+                    "name": "A",
+                    "size": 3938
+                },
+                {
+                    "name": "B",
+                    "size": 3938
+                },
+                {
+                    "name": "C",
+                    "size": 3938
+                },
+                {
+                    "name": "D",
+                    "size": 3938
+                }
+            ]
+        },
+        {
+            "name": "College",
+            "children": [
+                {
+                    "name": "A",
+                    "size": 17010
+                },
+                {
+                    "name": "B",
+                    "size": 5842
+                }
+            ]
+        }
+    ]
+}
