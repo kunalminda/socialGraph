@@ -109,7 +109,17 @@ public class SampleController {
 			for(String x : xyz){
 				Output o = new Output();
 				o.setName(x);
-				o.setSize("123");
+				o.setSize(123);
+				
+				List<Output> oChild = new ArrayList<Output>();
+				Output oChild1 = new Output();
+				oChild1.setSize(2345);
+				oChild1.setName(x);
+				oChild.add(oChild1);
+				
+				o.setChildren(oChild);
+				
+				
 				hello.add(o);
 			}
 			MP.setChildren(hello);
@@ -126,19 +136,23 @@ public class SampleController {
 		List<Output> collegeList = new ArrayList<Output>();
 		Output o1 = new Output();
 		o1.setName("Kapil Minda");
-		o1.setSize("123");
+		o1.setSize(123);
+		addSomething(o1);
 		
 		Output o2 = new Output();
 		o2.setName("Vikas Gupta");
-		o2.setSize("123");
+		o2.setSize(123);
+		addSomething(o2);
 		
 		Output o3 = new Output();
 		o3.setName("Saloni Jain");
-		o3.setSize("123");
+		o3.setSize(123);
+		addSomething(o3);
 		
 		collegeList.add(o1);
 		collegeList.add(o2);
 		collegeList.add(o3);
+		
 		college.setChildren(collegeList);
 		
 		outputListMain.add(college);
@@ -146,6 +160,20 @@ public class SampleController {
 		System.out.println(outputMain.toString());
 		
 		return outputMain;
+	}
+	
+	private void addSomething(Output o1){
+		String name = o1.getName();
+		
+		List<Output> out = new ArrayList<Output>();
+		Output o = new Output();
+		o.setName(name);
+		o.setSize(2345);
+		
+		out.add(o);
+		
+		o1.setChildren(out);
+		
 	}
 	
 	@RequestMapping(value="{}/registerFB/", method=RequestMethod.POST,headers = 
