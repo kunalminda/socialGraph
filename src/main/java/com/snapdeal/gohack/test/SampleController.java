@@ -6,6 +6,8 @@ import java.util.List;
 
 import javax.ws.rs.core.MediaType;
 
+import org.abego.treelayout.internal.util.java.lang.string.StringUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -45,20 +47,20 @@ public class SampleController {
 			"content-type=application/json" ,
 			produces={"application/json"}, consumes={"text/xml","application/json"})
 	public ResponseEntity<Output> searchSeller(@RequestBody SellerRequest query) throws JSONException{
-		if(query.getProduct() != null){
+		if(StringUtils.isNotBlank(query.getProduct())){
 			//execute product call
 			String bb = "MATCH (sellers:SELLER)-[:SELLS_PRODUCT]->(prod:PRODUCT{name:'"+query.getProduct()+"'}) return distinct sellers.name,sellers.state,sellers.fbId;";
 			bb = sendTransactionalCypherQuery(bb);
 			
 			return new ResponseEntity<Output>(myResponse(bb), HttpStatus.OK);
 		}
-		if(query.getSubCat() != null){
+		if(StringUtils.isNotBlank(query.getSubCat())){
 			//execute product call
 			String bb = "MATCH (sellers:SELLER)-[:SELLS_SUB_CAT]->(prod:SUB_CATEGORY{name:'"+query.getSubCat()+"'}) return distinct sellers.name,sellers.state,sellers.fbId;";
 			bb = sendTransactionalCypherQuery(bb);
 			return new ResponseEntity<Output>(myResponse(bb), HttpStatus.OK);
 		}
-		if(query.getCat() != null){
+		if(StringUtils.isNotBlank(query.getCat())){
 			String bb = "MATCH (sellers:SELLER)-[:SELLS_CAT]->(prod:CATEGORY{name:'"+query.getCat()+"'}) return distinct sellers.name,sellers.state,sellers.fbId;";
 			bb = sendTransactionalCypherQuery(bb);
 			return new ResponseEntity<Output>(myResponse(bb), HttpStatus.OK);
