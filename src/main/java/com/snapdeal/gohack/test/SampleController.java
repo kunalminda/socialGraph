@@ -176,12 +176,12 @@ public class SampleController {
 		
 	}
 	
-	@RequestMapping(value="{}/registerFB/", method=RequestMethod.POST,headers = 
+/*	@RequestMapping(value="{}/registerFB/", method=RequestMethod.POST,headers = 
 			"content-type=application/json" ,
 			produces={"application/json"}, consumes={"text/xml","application/json"})
 	public ResponseEntity<String> registerFBFriends(@RequestBody RegisterFBRequest request){
 		return null;
-	}
+	}*/
 	
     private String sendTransactionalCypherQuery(String query) {
     	
