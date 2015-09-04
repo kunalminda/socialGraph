@@ -1,0 +1,91 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "State",
+            "children": [
+                {
+                    "name": "Karnataka",
+                    "children": [
+                        {
+                            "name": "seller1",
+                            "children": [
+                                {
+                                    "name": "seller1",
+                                    "size": 2345
+                                }
+                            ]
+                        },
+                        {
+                            "name": "seller2",
+                            "size": 3812
+                        },
+                        {
+                            "name": "seller3",
+                            "size": 6714
+                        },
+                        {
+                            "name": "seller4",
+                            "size": 743
+                        }
+                    ]
+                },
+                {
+                    "name": "MP",
+                    "children": [
+                        {
+                            "name": "seller5",
+                            "size": 3938
+                        },
+                        {
+                            "name": "seller6",
+                            "size": 3812
+                        },
+                        {
+                            "name": "seller7",
+                            "size": 6714
+                        },
+                        {
+                            "name": "seller8",
+                            "size": 743
+                        }
+                    ]
+                },
+                {
+                    "name": "UP",
+                    "children": [
+                        {
+                            "name": "seller9",
+                            "size": 3938
+                        },
+                        {
+                            "name": "seller10",
+                            "size": 3812
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "college",
+            "children": [
+                {
+                    "name": "seller2",
+                    "size": 3938
+                },
+                {
+                    "name": "seller8",
+                    "size": 3812
+                },
+                {
+                    "name": "seller3",
+                    "size": 6714
+                },
+                {
+                    "name": "seller6",
+                    "size": 743
+                }
+            ]
+        }
+    ]
+}
