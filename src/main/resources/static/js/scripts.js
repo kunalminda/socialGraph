@@ -62,6 +62,26 @@ $(document).ready(function(){
 	    			renderGraph(result);
 	    		}
 		 });
+		
+		if($("#inputCat").val() == "Apparels"){
+			var data = ["Apoorva Jain", "Sells women clothing and has a surplus of dresses","Gaurav Gupta","sells men clothing and has a surplus of designer shirts","P.Venkataraman","sells children apparels and has a surplus on kids wear","Geeta Goswami","sells children apparels and has a surplus on kids wear"];
+		}
+		if($("#inputProduct").val() == "Nike"){
+			var data = ["Nikita Arora","Huge Surplus of Nike floaters and Women Shoes","Suraj Nigam","Medium level surplus of Nike Women Shoes","Ram Wagley","Huge Surplus of Nike Men shoes and Nike Floaters","Harshika Yadav","Huge Surplus of Nike Men Shoes and Nike Floaters"];
+		}
+		if($("#inputSubCat").val() == "Tablet"){
+			var data = ["Chintamani Joshi","Huge Surplus of tablets","Saqib Kamal","Huge Surplus of tablets","Peter Mathews","Huge Surplus of tablets","Ruchika Nikki","Huge Surplus of Tablet"];
+		}
+		
+		$($(".panel-heading h3")[0]).text(data[0]);
+		$($(".panel-heading h3")[1]).text(data[2]);
+		$($(".panel-heading h3")[2]).text(data[4]);
+		$($(".panel-heading h3")[3]).text(data[6]);
+		
+		$($(".panel-body p")[0]).text(data[1]);
+		$($(".panel-body p")[1]).text(data[3]);
+		$($(".panel-body p")[2]).text(data[5]);
+		$($(".panel-body p")[3]).text(data[7]);
 	});
 	
 	$("#btnMakeContact").on("click",function(){
@@ -98,6 +118,7 @@ $(document).ready(function(){
 	//d3.json(JSON.stringify(result), function(error, root) {
 	 var root = result;
 	//if (error) throw error;
+	 $(".noSup").text(parseTree(result));
 	 resultObj = result;
 	  var focus = root,
 	      nodes = pack.nodes(root),
@@ -180,7 +201,7 @@ $(document).ready(function(){
 		     
 		     if(d.name == "Kapil Minda")
 		    	 $(".text-email").text("kunal.minda@snapdeal.com");
-		     else if(d.name == "Saloni Jain")
+		     else if(d.name == "Indrani Mukherjee")
 		    	 $(".text-email").text("saloni.jain@snapdeal.com");
 		     else if(d.name == "Vikas Gupta")
 		    	 $(".text-email").text("vikas.kumar06@snapdeal.com");
@@ -192,6 +213,29 @@ $(document).ready(function(){
 		     $(".text-since").text("On Snapdeal since 2.5 years");
 		     $(".text-rating").text("Rating on Snapdeal : 4.15");
 	  }
+	  
+	    function parseTree(parent) {
+	        var hasNonLeafNodes = false;
+	        var childCount = 0;
+	        
+	        for (var child in parent) {
+	            if (typeof parent[child] === 'object') {
+	                // Parse this sub-category:
+	                childCount += parseTree(parent[child]);
+	                // Set the hasNonLeafNodes flag (used below):
+	                hasNonLeafNodes = true;
+	            }
+	        }
+	        
+	        if (hasNonLeafNodes) {
+	            // Add 'num_children' element and return the recursive result:
+	            parent.num_children = childCount;
+	            return childCount;
+	        } else {
+	            // This is a leaf item, so return 1:
+	            return 1;
+	        }
+	    }
 	  
 	//});
 

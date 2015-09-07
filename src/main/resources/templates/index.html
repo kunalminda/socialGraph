@@ -45,12 +45,13 @@
 
 <section class="container-fluid" id="section1">
     <div class="v-center">
-        <h1 class="text-center"> Buy &amp; Sell in Bulk, Ship &amp; Pay easily  Right here!</h1>
+        <h1 class="text-center"> Buy &amp; Sell in bulk from your connections &amp; contacts!</h1>
         <!-- <h2 class="text-center lato animate slideInDown">Change It To Say <b>Something</b> Unique</h2> -->
         <p class="text-center">
             <br>
           <!--   <a href="#" class="btn btn-danger btn-lg btn-huge lato" data-toggle="modal" data-target="#myModal">Get Free Membership
             </a> -->
+           <h2 class="text-center"> Type in product and find out buyers & sellers from your contacts :)</h2>
             <form class="form-data">
                 <select id="input-buysell" class="form-control">
                     <option value="">Select</option>
@@ -81,7 +82,7 @@
 <section class="container-fluid" id="section2">
     <div class="container v-center section2">
         <div class="row">
-          <h3 class="text-center login-fb">100+ suppliers willing to sell to you!</h3>
+          <h3 class="text-center login-fb">100+ suppliers are willing to sell to you!</h3>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 text-center">
@@ -146,7 +147,7 @@
         </div>
         <!--/row-->
         <div class="row text-center">
-            <h3> Want to trade with known people? Sign in with Facebook/Google Plus/Email</h3>
+            <h3> Sign in with Facebook | Google Plus &amp; find out which suppliers you're connected to</h3>
 
             <div class="row text-center">
                 <!--fontawesome icons-->
@@ -154,14 +155,16 @@
                     <i class="fa fa-github fa-4x"></i>
                 </div>
                 <div class="col-sm-1 col-xs-4 text-center">
-                    <i class="fa fa-facebook fa-4x">
-                    	<fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();">
+                    <i class="fa fa-facebook fa-4x facebook-button text-center"></i>
+                    	<fb:login-button size="xlarge"  scope="public_profile,email,user_friends" onlogin="checkLoginState();">
 						</fb:login-button>
-                    </i>
+						<!-- 
+					 	<div class="site_login" width="200px"> <div class="facebook" > <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" width="200px"> </fb:login-button> </div> -->
+                    
                 </div>
-                <div class="col-sm-1 col-xs-4 text-center">
+                 <div class="col-sm-1 col-xs-4 text-center">
                     <i class="fa fa-pinterest fa-4x"></i>
-                </div>
+                </div> 
                 <div class="col-sm-1 col-xs-4 text-center">
                     <i class="fa fa-google-plus fa-4x"></i>
                 </div>
@@ -178,7 +181,7 @@
 </section>
 
 <section id="section3">
-    <h2 class="text-center">20+ suppliers are connected to you! Find out how and start trading :)</h2>
+    <h2 class="text-center"><span class="noSup">10</span>+ suppliers are connected to you! Find out how and start trading :)</h2>
     <div class="container-fluid v-center">
 
 		<div class="row col-sm-9" id="graph"></div>
@@ -423,7 +426,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <h6 class="text-center"><a href="">Privacy is important to us. Click here to read why.</a></h6>
+                <h6 class="text-center"><a href="">Powered by Snapdeal</a></h6>
             </div>
         </div>
     </div>
@@ -434,6 +437,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
     <script src="js/fb.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
