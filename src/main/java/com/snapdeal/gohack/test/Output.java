@@ -2,6 +2,8 @@ package com.snapdeal.gohack.test;
 
 import java.util.List;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -16,7 +18,8 @@ public class Output {
 	private List<Output> children;
 
 	@JsonProperty("size")
-	private String size;
+	@JsonInclude(Include.NON_NULL)
+	private Integer size;
 	
 	public String getName() {
 		return name;
@@ -34,13 +37,14 @@ public class Output {
 		this.children = children;
 	}
 
-	public String getSize() {
+	public Integer getSize() {
 		return size;
 	}
 
-	public void setSize(String size) {
+	public void setSize(Integer size) {
 		this.size = size;
 	}
+
 	
 	
 }
