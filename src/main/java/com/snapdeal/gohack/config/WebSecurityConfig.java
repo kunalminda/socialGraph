@@ -1,11 +1,7 @@
 package com.snapdeal.gohack.config;
 
-import javax.sql.DataSource;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -35,20 +31,18 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
            .antMatchers("/font-awesome/**").and().ignoring().antMatchers("/less/**").and().ignoring().antMatchers("favicon.ico");
     }
     
-    
-    @Autowired
-	DataSource dataSource;
-	
-	@Autowired
-	public void configAuthentication(AuthenticationManagerBuilder auth) throws Exception {
-		
-	  auth.jdbcAuthentication().dataSource(dataSource)
-		.usersByUsernameQuery(
-			"select email,password, enabled from users where email=?")
-		.authoritiesByUsernameQuery(
-			"select email, role from user_roles where email=?");
-	}	
-	
+
+//	
+//	@Autowired
+//	public void configAuthentication(AuthenticationManagerBuilder auth) throws Exception {
+//		
+//	  auth.jdbcAuthentication().dataSource(dataSource)
+//		.usersByUsernameQuery(
+//			"select email,password, enabled from users where email=?")
+//		.authoritiesByUsernameQuery(
+//			"select email, role from user_roles where email=?");
+//	}	
+//	
 	
 	
 	

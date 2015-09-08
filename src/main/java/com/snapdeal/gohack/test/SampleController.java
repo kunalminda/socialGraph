@@ -32,8 +32,9 @@ import com.sun.jersey.api.client.WebResource;
 public class SampleController {
 	
 	//private static final String SERVER_ROOT_URI = "http://localhost:7474/db/data/";
-	
-	private static final String SERVER_ROOT_URI = "http://52.1.123.47:7474/db/data/";
+
+	private static final String SERVER_ROOT_URI = "http://127.0.0.1:7474/db/data/";
+
     
 	@RequestMapping(value="/submitQuery", method=RequestMethod.POST,headers = 
 			"content-type=application/json" ,
