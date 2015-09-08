@@ -277,15 +277,15 @@ footer .nav>li>a:hover {
   pointer-events: none;
 }
 
-/* .node.node--root{
-	fill: rgb(31, 119, 180) !important;
+.node.node--root{
+	fill: #339933 !important;
 }
 .node{
-	fill:#DF2323 !important;
+	fill:#0066FF !important;
 }
 .node.node--leaf{
-	fill:#337ab7 !important; 
-} */
+	fill:  #E68A2E !important; 
+}
 #graph svg{
 	margin-left:20%;
 }
@@ -306,4 +306,20 @@ footer .nav>li>a:hover {
 
 #btnMakeContact{
 	height:40px;
+}
+
+.panel-heading{
+	  background-color: bisque !important;
+}
+
+.panel-body{
+	background-color: aliceblue !important;
+}
+
+.facebook { width:300px; heigth:100px; }
+.facebook-button{margin-left:30px;}
+
+.fb_iframe_widget{
+	margin-top:30px;
+	margin-left: 93px;	
 }
