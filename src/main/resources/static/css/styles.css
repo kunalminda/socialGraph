@@ -198,10 +198,10 @@ footer .nav>li>a:hover {
 }
 
 .form-data .form-control{
-  width: 22%;
+  width: 20%;
   float: left;
   height:50px;
-    margin: 0 0px 0 11px;
+    margin: 0 0px 0 1.68%
 }
 
 .login-fb{
@@ -286,8 +286,10 @@ footer .nav>li>a:hover {
 .node.node--leaf{
 	fill:  #E68A2E !important; 
 }
-#graph svg{
-	margin-left:20%;
+#graph{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }
 
 .container-fluid.v-center{
@@ -320,6 +322,14 @@ footer .nav>li>a:hover {
 .facebook-button{margin-left:30px;}
 
 .fb_iframe_widget{
-	margin-top:30px;
+	margin-top:10px;
 	margin-left: 93px;	
+}
+
+#inputQty{
+	  width: 15%;
+}
+
+#input-buysell{
+	width:15%;
 }

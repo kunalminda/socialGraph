@@ -1,5 +1,7 @@
  // This is called with the results from from FB.getLoginStatus().
-  function statusChangeCallback(response) {
+$(document).on('ready',function(){
+
+function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
     // The response object is returned with a status field that lets the
@@ -182,3 +184,4 @@
 //    	    }
 //    	);
   }
+});

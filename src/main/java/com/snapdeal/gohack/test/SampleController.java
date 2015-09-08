@@ -33,7 +33,7 @@ public class SampleController {
 	
 	//private static final String SERVER_ROOT_URI = "http://localhost:7474/db/data/";
 	
-	private static final String SERVER_ROOT_URI = "http://10.10.101.176:7474/db/data/";
+	private static final String SERVER_ROOT_URI = "http://52.1.123.47:7474/db/data/";
     
 	@RequestMapping(value="/submitQuery", method=RequestMethod.POST,headers = 
 			"content-type=application/json" ,
@@ -147,14 +147,14 @@ public class SampleController {
 		//o2.setSize(123);
 		addSomething(o2);
 		
-		Output o3 = new Output();
-		o3.setName("Saloni Jain");
-		//o3.setSize(123);
-		addSomething(o3);
+//		Output o3 = new Output();
+//		o3.setName("Saloni Jain");
+//		//o3.setSize(123);
+//		addSomething(o3);
 		
 		collegeList.add(o1);
 		collegeList.add(o2);
-		collegeList.add(o3);
+		//collegeList.add(o3);
 		
 		college.setChildren(collegeList);
 		

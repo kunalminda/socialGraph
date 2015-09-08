@@ -97,7 +97,7 @@ $(document).ready(function(){
 	
 	function renderGraph(result){
 		var margin = 20,
-	    diameter = 1000;
+	    diameter = 700;
 
 	var color = d3.scale.linear()
 	    .domain([-1, 5])
@@ -115,7 +115,17 @@ $(document).ready(function(){
 	  .append("g")
 	    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-	//d3.json(JSON.stringify(result), function(error, root) {
+	var width = 800, height = 800;
+	// force layout setup
+	var force = d3.layout.force()
+	        .charge(-200).linkDistance(30).size([width, height]);
+
+	// setup svg div
+/*	var svg = d3.select("#graph").append("svg")
+	        .attr("width", "100%").attr("height", "100%")
+	        .attr("pointer-events", "all");*/
+
+//	d3.json(JSON.stringify(result), function(error, root) {
 	 var root = result;
 	//if (error) throw error;
 	 $(".noSup").text(parseTree(result));
@@ -237,7 +247,7 @@ $(document).ready(function(){
 	        }
 	    }
 	  
-	//});
+//	});
 
 	d3.select(self.frameElement).style("height", diameter + "px");
 		

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>SD Social</title>
+    <title>Seller Connect</title>
     <meta name="description" content="This one page example has a fixed navbar and full page height sections. Each section is vertically centered on larger screens, and then stack responsively on smaller screens. Scrollspy is used to activate the current menu item. This layout also has a contact form example. Uses animate.css, FontAwesome, Google Fonts (Lato and Bitter) and Bootstrap." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
@@ -46,26 +46,38 @@
 <section class="container-fluid" id="section1">
     <div class="v-center">
         <h1 class="text-center"> Buy &amp; Sell in bulk from your connections &amp; contacts!</h1>
-        <!-- <h2 class="text-center lato animate slideInDown">Change It To Say <b>Something</b> Unique</h2> -->
         <p class="text-center">
             <br>
-          <!--   <a href="#" class="btn btn-danger btn-lg btn-huge lato" data-toggle="modal" data-target="#myModal">Get Free Membership
-            </a> -->
            <h2 class="text-center"> Type in product and find out buyers & sellers from your contacts :)</h2>
             <form class="form-data">
                 <select id="input-buysell" class="form-control">
-                    <option value="">Select</option>
+                    <option value="">Buy/Sell</option>
                     <option value="buy">Buy</option>
                     <option value="sell">Sell</option>
                 </select>
 
-                <input type="text" class="form-control" id="inputCat" placeholder="category" />
+                <select class="form-control" id="inputCat">
+                	<option value="">Category</option>
+                	<option value="Apparels">Apparels</option>
+                </select>
                 
-                <input type="text" class="form-control" id="inputSubCat" placeholder="subcategory"/>
+                <select class="form-control" id="inputSubCat">
+                	<option value="">SubCategory</option>
+                	<option value="Tablet">Tablet</option>
+                </select>
 
-                <input type="text" class="form-control" id="inputProduct" placeholder="product"/>
-               
-                <input type="text" class="form-control" id="inputQty" placeholder="Quantity"/>
+                <select class="form-control" id="inputProduct">
+                	<option value="">Product</option>
+                	<option value="Nike">Nike</option>
+                </select>
+
+                <select class="form-control" id="inputQty">
+               		<option value="">Quantity</option>
+                	<option value="1000">1000</option>
+                	<option value="5000">5000</option>
+                	<option value="7500">7500</option>
+                	<option value="10000">10000</option>
+                </select>
             </form>
 
         </p>
@@ -146,34 +158,34 @@
             </div>
         </div>
         <!--/row-->
-        <div class="row text-center">
+        <div class="row text-center col-xs-12">
             <h3> Sign in with Facebook | Google Plus &amp; find out which suppliers you're connected to</h3>
 
             <div class="row text-center">
                 <!--fontawesome icons-->
-                <div class="col-sm-1 col-sm-offset-3 col-xs-4 text-center">
+            <!--     <div class="col-sm-1 col-sm-offset-3 col-xs-4 text-center">
                     <i class="fa fa-github fa-4x"></i>
-                </div>
-                <div class="col-sm-1 col-xs-4 text-center">
-                    <i class="fa fa-facebook fa-4x facebook-button text-center"></i>
-                    	<fb:login-button size="xlarge"  scope="public_profile,email,user_friends" onlogin="checkLoginState();">
+                </div> -->
+                <div class="col-sm-1 col-xs-4 col-md-4 text-center">
+                   <!--  <i class="fa fa-facebook fa-4x facebook-button text-center"></i> -->
+                    	<fb:login-button size="xlarge" class="text-center"  scope="public_profile,email,user_friends" onlogin="checkLoginState();">
 						</fb:login-button>
 						<!-- 
 					 	<div class="site_login" width="200px"> <div class="facebook" > <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" width="200px"> </fb:login-button> </div> -->
                     
                 </div>
-                 <div class="col-sm-1 col-xs-4 text-center">
+                 <div class="col-sm-1 col-xs-4 col-md-4 text-center">
                     <i class="fa fa-pinterest fa-4x"></i>
                 </div> 
-                <div class="col-sm-1 col-xs-4 text-center">
+             <!--    <div class="col-sm-1 col-xs-4 text-center">
                     <i class="fa fa-google-plus fa-4x"></i>
-                </div>
-                <div class="col-sm-1 col-xs-4 text-center">
+                </div> -->
+                <div class="col-sm-1 col-xs-4 col-md-4 text-center">
                     <i class="fa fa-twitter fa-4x"></i>
                 </div>
-                <div class="col-sm-1 col-xs-4 text-center">
+              <!--   <div class="col-sm-1 col-xs-4 text-center">
                     <i class="fa fa-dribbble fa-4x"></i>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -185,77 +197,13 @@
     <div class="container-fluid v-center">
 
 		<div class="row col-sm-9" id="graph"></div>
-       <!--  <div class="row col-sm-9" id="graph">
-            <div class="col-sm-3 col-sm-offset-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/1.jpg">
-                    </a>
-                    <h4 class="text-center">Name</h4>
-                    <h4 class="text-center">Place</h4>
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/2.jpg">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/4.jpg">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/1.jpg">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="row col-sm-9">
-            <div class="col-sm-3 col-sm-offset-2 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/2.jpg">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/2.jpg">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="text-center">
-                    <a href="">
-                        <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/2.jpg">
-                    </a>
-                    <h3 class="text-center"></h3>
-                </div>
-            </div>
-       
-        </div> -->
-        <!--/row-->
     </div>
 </section>
 
 <section class="details-section">
    <h2 class="text-center">Seller Details</h2>
     <div class="container-fluid v-center">
-		 <div class="col-sm-8 col-sm-offset-2 col-xs-6">
+		 <div class="col-sm-8 col-sm-offset-2 col-xs-12">
                 <div class="text-center">
                     <a href="">
                         <img style="width:100px;" class="img-circle img-responsive img-thumbnail" src="images/person.jpg">
@@ -436,8 +384,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-    <script src="js/fb.js"></script>
+   
     <script src="js/index.js"></script>
     <script src="js/scripts.js"></script>
+     <script src="js/fb.js"></script>
   </body>
 </html>
